@@ -1,0 +1,110 @@
+/* Адаптив сайта 1024px */
+
+@media screen and (max-width: 1024px) {
+
+    /* .header */
+
+    .header-brand {
+        padding-left: 20px;
+    }
+
+    .header-link {
+        padding-left: 10px;
+    }
+
+    .header-nav__btn {
+        margin-left: 40px;
+    }
+
+    .header-bottom__title {
+        padding-left: 74px;
+    }
+
+    .header-bottom__subtitle {
+        padding-left: 74px;
+        padding-bottom: 15px;
+    }
+
+    .header-stat {
+        padding-left: 74px;
+        padding-bottom: 30px;
+    }
+
+    .header-bottom__link {
+        padding-left: 74px;
+    }
+
+    .header-forms {
+        margin-left: 100px;
+    }
+
+    .header-right {
+        width: 600px;
+    }
+
+    /* ./header */
+
+    /* .we */
+
+    .we-container {
+        padding-left: 74px;
+        padding-bottom: 40px;
+        padding-top: 0px;
+    }
+
+    .we-text__title {
+        padding-bottom: 15px;
+    }
+
+    .we-img {
+        margin-left: 95px;
+    }
+
+    /* ./we */
+
+    /* .price */
+
+    .price__title {
+        margin-left: 74px;
+        margin-bottom: 35px;
+    }
+
+    .price-table {
+        margin-left: 74px;
+    }
+
+    .table-final {
+        margin-left: 74px;
+        margin-bottom: 23px;
+    }
+
+    .table-button {
+        margin-left: 74px;
+    }
+
+    /* ./price */
+
+    /* .advantage */
+
+    .advantage-container {
+        width: 1200px;
+        height: 680px;
+    }
+
+    .advantage__title {
+        padding-left: 42px;
+        padding-top: 32px;
+        padding-bottom: 43px;
+    }
+
+    .advantage-column {
+        margin: 0px 0px 228px 230px;
+    }
+
+    .column-right {
+        right: 493px;
+    }
+
+    /* ./advantage */
+
+}

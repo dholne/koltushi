@@ -3,6 +3,7 @@
 .header-nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 100%;
 }
 
 .header-brand {
@@ -48,8 +49,6 @@
 
   padding-left: 70px;
   padding-top: 57px;
-
-  text-align: center;
 }
 
 .header-link__links {
@@ -61,6 +60,7 @@
   font-size: 16px;
 
   text-decoration: none;
+  text-align: center;
 }
 
 .header-nav__btn {
@@ -336,9 +336,6 @@
 }
 
 .price-table {
-  /* display: grid; */
-  /* grid-template-columns: repeat(6,1fr); */
-  /* justify-content: space-evenly; */
   justify-self: center;
   align-content: center;
 
@@ -371,10 +368,6 @@
   font-size: 18px;
   line-height: 120%;
 
-
-  /* margin-bottom: 35px;
-  margin-left: 44px;
-  margin-right: 55px; */
   padding: 30px;
   padding-bottom: 8px;
 }
@@ -477,21 +470,23 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
-  padding-left: 268px;
+  margin: 0px 0px 228px 291px;
+  position: relative;
 }
 
 .column-direct div {
-  padding-bottom: 56px;
+  height: 80px;
+  padding-bottom: 36px;
 }
 
-.column-direct div div {
+.column-left {
   position: absolute;
-  left: 240px;
+  left: -60px;
 }
 
-.direct-column__img {
+.column-right {
   position: absolute;
-  right: 240px;
+  right: 590px;
 }
 
 .column-direct div h2 {
@@ -513,3 +508,5 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+/* ./advantage */
