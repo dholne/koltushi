@@ -484,13 +484,14 @@
   padding-bottom: 56px;
 }
 
-.column-direct div h2::before {
-  content: '';
+.column-direct div div {
+  position: absolute;
+  left: 240px;
+}
 
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background: url(..//img/advantage.png) no-repeat center center;
+.direct-column__img {
+  position: absolute;
+  right: 240px;
 }
 
 .column-direct div h2 {
