@@ -523,7 +523,7 @@
 
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 32px;
   line-height: 35px;
 
@@ -574,3 +574,89 @@
 /* ./gallery */
 
 /* .comparison */
+
+.comparison__title {
+  color: #060606;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 46px;
+
+  margin-left: 155px;
+  margin-bottom: 69px;
+}
+
+.comparison__title::before {
+  content: '';
+
+  display: inline-block;
+  width: 4px;
+  height: 24px;
+  background: #FFC50D;
+  border-radius: 15%;
+  margin: 0 8px 0;
+}
+
+.comparison-table {
+  margin-left: 175px;
+}
+
+
+.comparison tr {
+  border-bottom: 2px solid #e7e7e7;
+  /* position: relative; */
+}
+
+.comparison-table tr th {
+  color: #060606;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  padding-bottom: 43px;
+}
+
+.comparison tr td {
+  color: #060606;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+
+  padding-right: 200px;
+  padding-bottom: 45px;
+
+  position: relative;
+}
+
+
+.comparison tr td:nth-last-child(1) {
+  position: absolute;
+  right: -12px;
+}
+
+.comparison__btn {
+  width: 201px;
+  height: 59px;
+  background-color: #FFC50D;
+  border-radius: 40px;
+  border: none;
+
+  color: #060606;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+
+
