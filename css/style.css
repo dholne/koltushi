@@ -437,6 +437,7 @@
   background-color: #454545;
 
   margin-left: 35px;
+  margin-bottom: 160px;
 
   border-radius: 50px;
 }
@@ -510,3 +511,66 @@
 }
 
 /* ./advantage */
+
+/* .gallery */
+
+.gallery {
+  margin-bottom: 160px;
+}
+
+.gallery__title {
+  color: #060606;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 35px;
+
+  margin-left: 158px;
+  margin-bottom: 72px;
+}
+
+.gallery__title::before {
+  content: '';
+
+  display: inline-block;
+  width: 4px;
+  height: 24px;
+  background: #FFC50D;
+  border-radius: 15%;
+  margin: 0 8px 0;
+}
+
+/* .gallery__btn {
+  transform: rotate(-45deg);
+  border: none;
+}
+
+.gallery__btn i {
+  border: solid black;
+  border-width: 0 3px 3px;
+}
+
+.gallery__btn::after {
+  content: '';
+
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  background-color: black;
+  transform: rotate(0deg);
+} */
+
+.photo-carousel {
+  margin-left: 176px;
+}
+
+.photo-elem {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+/* ./gallery */
+
+/* .comparison */
