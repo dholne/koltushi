@@ -101,9 +101,9 @@
             <div class="header-forms__title">Оставьте заявку</div>
             <form action="#">
 
-              <input class="header-forms__name" type="text" placeholder="Имя">
+              <input class="header-forms__name" type="name" required minlength="3" placeholder="Имя">
               <div></div>
-              <input class="header-forms__phone" type="text" placeholder="Телефон">
+              <input class="header-forms__phone" type="tel" required minlength="11" placeholder="Телефон">
               <div></div>
               <input class="header-forms__btn" type="button" value="Оставить заявку">
 
@@ -432,7 +432,7 @@
 
           </tr>
 
-          <tr>
+          <tr style="border: none;">
 
             <td style="color: gray;">Обмотка паллета стретч-плёнкой (шт.)</td>
             <td>65</td>
@@ -447,6 +447,99 @@
       </div>
 
     </section>
+    <!-- ./comprasion -->
+
+    <!-- .work -->
+    <section class="work">
+
+      <div class="work-container">
+
+        <h1 class="work-container__title">Этапы работы</h1>
+
+        <ul class="work-container_ul">
+
+          <li>
+            <div class="work-container_ul-li__number"><span>1</span></div>
+            <h3>Заявка</h3>
+            <p>Выбираете услугу<br> и оставляете заявку</p>
+          </li>
+          <li>
+            <div class="work-container_ul-li__number"><span>2</span></div>
+            <h3>Рассчёт стоимости</h3>
+            <p>Уточняем детали,<br> составляем смету</p>
+          </li>
+          <li>
+            <div class="work-container_ul-li__number"><span>3</span></div>
+            <h3>Заключение договора</h3>
+            <p><br><br><br></p>
+          </li>
+          <li>
+            <div class="work-container_ul-li__number"><span>4</span></div>
+            <h3>Приёмка груза</h3>
+            <p>Принимаем, сотрируем<br> и размещаем груз<br> на хранение</p>
+          </li>
+
+        </ul>
+
+        <button class="work-container__button" type="submit" role="button">Рассчитать стоимость</button>
+
+      </div>
+
+    </section>
+    <!-- ./work -->
+
+    <!-- .reviews -->
+    <section class="reviews">
+
+      <div class="reviews-container">
+
+        <h1 class="reviews-container__title">Отзывы</h1>
+
+        <div class="reviews-container_feedback">
+
+          <div class="reviews-container_feedback-feed">
+            <img class="reviews-container_feedback-feed__avatar" data-src="img/Ellipse 10.png" alt="avatar">
+            <h3 class="reviews-container_feedback-feed__title">Ирина Метельникова</h3>
+            <p class="reviews-container_feedback-feed__subtitle">предпринимательница</p>
+            <p class="reviews-container_feedback-feed__about">Нужен был склад на время ремонта. Зашла на сайт, поговорила с сотрудниками. Помогли рассчитать количество паллетов, всё забрали и аккуратно разместили. 
+              Склады под охраной, я осталась довольна.</p>
+          </div>
+
+          <div class="reviews-container_feedback-feed">
+            <img class="reviews-container_feedback-feed__avatar" data-src="img/Ellipse 10 (1).png" alt="avatar">
+            <h3 class="reviews-container_feedback-feed__title">Семён Бортников</h3>
+            <p class="reviews-container_feedback-feed__subtitle">логист</p>
+            <p class="reviews-container_feedback-feed__about">Компания отличается четким исполнением своих обязательств, продуманной коммерческой политикой. Цены в пересчете на квадратные метры приличные, но мы готовы платить за то, что «все включено».</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ./reviews -->
+
+    <!-- .application -->
+    <section class="application">
+
+      <div class="application-container">
+
+        <h1 class="application-container__title">Оставьте заявку</h1>
+        <p class="application-container__subtitle">и мы перезвоним в течении часа</p>
+
+        <form action="#" method="post">
+
+          <input type="name" name="name" required minlength="3" class="application-container_form__name" placeholder="Имя">
+          <input type="tel" name="tel" required minlength="11" class="application-container_form__number" placeholder="Телефон">
+          <button type="submit" class="application-container_form__button">Оставить заявку</button>
+          <p class="application-container_form__agree">Нажимая на кнопку, вы соглашаетесь на <a href="#">обработку<br> персональных данных и с политикой конфиденциальности</a></p>
+
+        </form>
+
+      </div>
+
+    </section>
+    <!-- ./application -->
 
   <!-- JavaScript -->
   <script src="js/main.js"></script>
